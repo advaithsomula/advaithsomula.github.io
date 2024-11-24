@@ -24,7 +24,7 @@ const greeting = {
     name: "Advaith Somula",
     message: "I am a robotics and AI enthusiast",
     basedLocation: "Boston, MA",
-    resumeLink: "https://drive.google.com/file/d/1BEiPuAOCQPWc1RVN5Bn_7KyxhR0HL_bv/view?usp=sharing", // recommended: google drive file share link (change to "anyone on the internet can view")
+    resumeLink: "https://drive.google.com/file/d/1fbmuF81minjlRtRUx06B7v4nHjmia2lX/view?usp=sharing", // recommended: google drive file share link (change to "anyone on the internet can view")
     logo: {
         link: "images/logo.png", // use relative path from  parent directory -> ex: images/image.ext
         custom: true // takes precedence over image logo and allows for custom HTML logo (./components/Navbar.vue)
@@ -34,7 +34,7 @@ const greeting = {
 
 const socialMediaLinks = {
     github: "https://github.com/advaithsomula?tab=repositories",
-    linkedin: "www.linkedin.com/in/advaith-somula",
+    linkedin: "https://www.linkedin.com/in/advaith-somula/",
 } // to add any additional social media links check out the README.md or src/icons.js file
 
 // --- 😎 About Section ---
