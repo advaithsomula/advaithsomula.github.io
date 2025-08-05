@@ -24,7 +24,7 @@ const greeting = {
     name: "Advaith Somula",
     message: "I am a robotics and AI enthusiast",
     basedLocation: "Boston, MA",
-    resumeLink: "https://drive.google.com/file/d/1N1JaHAwZQRVyWIkq52yjib50tIuWK7BF/view?usp=share_link", // recommended: google drive file share link (change to "anyone on the internet can view")
+    resumeLink: "https://drive.google.com/file/d/1g6ek0i0mwqHMy5KQUw3NHk0_tCtOotIV/view?usp=sharing", // recommended: google drive file share link (change to "anyone on the internet can view")
     logo: {
         link: "images/logo.png", // use relative path from  parent directory -> ex: images/image.ext
         custom: true // takes precedence over image logo and allows for custom HTML logo (./components/Navbar.vue
@@ -40,12 +40,13 @@ const socialMediaLinks = {
 // --- 😎 About Section ---
 const about = {
     autobiography: [
-        "I am Advaith Somula, a Robotics and AI Engineer with a focus in AI-driven solutions and robotic systems. My expertise lies in areas such as computer vision, deep learning, motion planning, soft robotics and intelligent systems for surgical and industrial applications. I specialize in leveraging machine learning and advanced robotics to solve challenging problems, particularly in automation, object detection, and system optimization.I hold a Master’s degree in Robotics and Autonomous Systems from Boston University (2025, expected) and a Bachelor’s degree in Artificial Intelligence Engineering from Amrita Vishwa Vidyapeetham (2023). I am passionate about integrating robotics and AI to enhance human life, particularly through applications in healthcare and sustainability. I believe that research and development are pivotal to creating impactful technologies that address real-world challenges. Outside of work, I enjoy exploring new technologies, reading books, reading about sustainable innovations, and engaging in outdoor activities."
+        "Hello, I’m Advaith Somula, a Robotics and AI engineer who enjoys teaching machines to sense, think, and move. My work sits at the crossroads of controls, perception, and machine learning, where tight feedback loops meet deep-learning insight. With a bachelor’s in Artificial Intelligence Engineering and an M.S. in Robotics & Autonomous Systems on the way, I’m drawn to challenges that turn complex code and clever hardware into practical tools—especially in healthcare, automation, and sustainable tech. I value clear communication, well-tested ideas, and collaboration that makes everyone’s work better. Outside of work, I enjoy exploring new technologies, reading books, reading about sustainable innovations, and participating in outdoor sports like cricket and basketball."
     ], // Separated items are paragraphs
     techStack: [
         "Python",
         "MATLAB",
         "ROS2",
+        "D Robotics RDK-X5
         "Raspberry Pi",
         "Arduino IDE"
     ],
@@ -57,29 +58,30 @@ const about = {
 // --- 🛡️ Experience Section ---
 const experiences = [
     {
-        position: "AI Intern",
+        position: "Machine Learning Intern",
         company: {
-            name: "Zentron Labs Pvt Ltd",
-            link: "https://zentronlabs.com/systems/optical-fruit-grading-and-sorting-machine/"
+            name: "ToothPrints PC",
+            link: "https://toothprints.info/"
         },
-        duration: "Jan 2023 - June 2023",
+        duration: "May 2025 - September 2025",
         bulletPoints: [
-            "Optimized the post-inference pipeline of the 'FruiTron' agricultural machine, improving the efficiency of fruit segregation based on color, size, and weight using Python and OpenCV.",
-            "Developed defect detection solutions by processing large datasets of fruit images, integrating bounding box data, and automating the identification of defects, reducing manual inspection time significantly.",
-            "Streamlined the system's data pipeline, leading to enhanced accuracy in defect detection and improved overall operational efficiency for agricultural automation."
+            "Designed an XGBoost classifier that links Age × Weight × Gender × palatal-width (T-T) to four pacifier-size stages, turning predictions into a personalized 24-month “size-up” timeline for each infant.",
+            "Bootstrapped an initial set of 180 clinical measurements, labeled growth stages, and synthesized 10,000 additional samples to train the model without requiring costly new trials.",
+            "Embedded the model in a mobile reminder engine that triggers push/SMS alerts one week before a predicted size change—replacing rigid age-charts with a self-learning, one photo workflow."
         ],
         hashtags: [
             "Python",
-            "Open CV"
+            "Machine Learning"
         ]
     },
-    {
+   
+     {
         position: "Research Intern",
         company: {
             name: "Morphable BioRobotic Lab",
             link: "https://sites.bu.edu/ranzani-lab/"
         },
-        duration: "June 2024 - Aug 2024",
+        duration: "June 2024 - August 2024",
         bulletPoints: [
             "Fabricated stacked balloon actuators (SBA) with thermoplastic elastomers, optimizing soft robotics for cardiac interventions.",
             "Developed a PyQt-based graphical user interface (GUI) integrated with Raspberry Pi for real-time visualization and control, streamlining operator interaction and reducing setup time.",
@@ -91,7 +93,25 @@ const experiences = [
             "Raspberry Pi",
             "Deep Learning"
         ]
+    },
+    {
+        position: "Computer Vision Intern",
+        company: {
+            name: "Zentron Labs Pvt Ltd",
+            link: "https://zentronlabs.com/systems/optical-fruit-grading-and-sorting-machine/"
+        },
+        duration: "January 2023 - June 2023",
+        bulletPoints: [
+            "Optimized the post-inference pipeline of the 'FruiTron' agricultural machine, improving the efficiency of fruit segregation based on color, size, and weight using Python and OpenCV.",
+            "Developed defect detection solutions by processing large datasets of fruit images, integrating bounding box data, and automating the identification of defects, reducing manual inspection time significantly.",
+            "Streamlined the system's data pipeline, leading to enhanced accuracy in defect detection and improved overall operational efficiency for agricultural automation."
+        ],
+        hashtags: [
+            "Python",
+            "Open CV"
+        ]
     }
+   
 ]
 
 // --- 💻 Work Section ---
@@ -242,11 +262,10 @@ const contact = {
     externalLink: {
         shortTitle: "Get in Touch",
         note: [
-            "Actively seeking full-time Robotics Engineer and AI Engineer positions as a Jan 2025 graduate.",
+            "January 2025 graduate actively seeking full-time roles in Robotics and Artificial Intelligence.",
         ], // paragraph breaks will be entered after each item,
         link: {
-            email: "advaithsomula@gmail.com", // email takes precedance
-            other: "https://forms.gle/W3MswTKsPWMxEbn58"
+            email: "advaithsomula@gmail.com" // email takes precedance
         },
         responseTimeMessage: ""
     },
