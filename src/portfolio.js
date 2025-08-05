@@ -46,7 +46,7 @@ const about = {
         "Python",
         "MATLAB",
         "ROS2",
-        "D Robotics RDK-X5
+        "D Robotics RDK-X5",
         "Raspberry Pi",
         "Arduino IDE"
     ],
